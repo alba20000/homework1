@@ -1,0 +1,15 @@
+print("Задание 13")
+students = {"Schultz", "Django", "Brunhilde", "Fritz"}
+employees = {"Schultz", "Django", "Calvin", "Butch", "Fritz"}
+print("Все люди:")
+print(students | employees)
+print(students.union(employees))
+print("Учатся и работают:")
+print(students & employees)
+print(students.intersection(employees))
+print("Работают, но не учатся:")
+print(employees - students)
+print(employees.difference(students))
+print("Либо учатся, либо работают:")
+print(students ^ employees)
+print(students.symmetric_difference(employees))
